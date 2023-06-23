@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'facebook', // Usually your GitHub
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -68,15 +68,6 @@ const config = {
         // ... other options
       },
     ],
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'notice',
-        path: 'blog',
-        routeBasePath: 'notice',
-        // ... other options
-      },
-    ],
   ],
   // 메인 헤더 내용
   themeConfig:
@@ -103,7 +94,7 @@ const config = {
             label: 'FAQ',
             activeBaseRegex: `/faq/`,
           },
-          {to: '/notice', label: 'Notice', position: 'left'},
+          {to: '/blog', label: 'Notice', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: '사이트 이동',
