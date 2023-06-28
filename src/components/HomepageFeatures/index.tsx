@@ -1,48 +1,43 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from 'react'
+import clsx from 'clsx'
+import styles from './styles.module.css'
 
 type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
-};
+  title: string
+  Svg: React.ComponentType<React.ComponentProps<'svg'>>
+  description: JSX.Element
+}
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '클라우드 자산 취약점 점검',
+    Svg: require('@site/static/img/inspect.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        프로젝트별로 가지고 있는 클라우드 자신의 취약점을 파악해 보완할 수
+        있습니다.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: '점검 내용을 엑셀 파일로 추출',
+    Svg: require('@site/static/img/exelFile.svg').default,
+    description: <>특정 점검 내역을 파일로 추출하여 관리 할 수 있습니다.</>,
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '점검 결과 비교',
+    Svg: require('@site/static/img/compare.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        선택한 일자 기준으로 직전 점검결과와 비교하여 개선사항을 파악할 수
+        있습니다.
       </>
     ),
   },
-];
+]
 
 // 메인페이지 리스트 아이템
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -53,7 +48,7 @@ function Feature({title, Svg, description}: FeatureItem) {
         <p>{description}</p>
       </div>
     </div>
-  );
+  )
 }
 
 // 메인페이지 바디
@@ -68,5 +63,5 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
       </div>
     </section>
-  );
+  )
 }

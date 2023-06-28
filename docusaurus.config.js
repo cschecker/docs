@@ -1,166 +1,90 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github")
+const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '가이드 제목',
-  tagline: '가이드 설명',
-  favicon: 'img/favicon.ico',
+    title: "CS Checker Docs",
+    favicon: "img/favicon.ico",
+    url: "https://docs.cschecker.kr",
+    baseUrl: "/",
+    projectName: "cschecker", // Usually your repo name.
+    onBrokenLinks: "throw",
+    onBrokenMarkdownLinks: "warn",
+    i18n: {
+        defaultLocale: "en",
+        locales: ["en"],
+    },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub
-  projectName: 'docusaurus', // Usually your repo name.
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
-  ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'faq',
-        path: 'faq',
-        routeBasePath: 'faq',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // ... other options
-      },
-    ],
-  ],
-  // 메인 헤더 내용
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: '가이드 제목',
-        logo: {
-          alt: '가이드 로고',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            to:"/docs/intro",
-            position:'left',
-            label: 'Docs',
-            activeBaseRegex: `/docs/`,
-          },
-          {
-            to:"/faq/profile/signup",
-            position:'left',
-            label: 'FAQ',
-            activeBaseRegex: `/faq/`,
-          },
-          {to: '/blog', label: 'Notice', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: '사이트 이동',
-            position: 'right',
-          },
+    presets: [
+        [
+            "classic",
+            /** @type {import('@docusaurus/preset-classic').Options} */
+            ({
+                docs: {
+                    sidebarPath: require.resolve("./sidebars.js"),
+                    editUrl:
+                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                },
+                blog: {
+                    showReadingTime: true,
+                    editUrl:
+                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                },
+                theme: {
+                    customCss: require.resolve("./src/scss/_custom.scss"),
+                },
+            }),
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs',
-              },
-            ],
-          },
-          {
-            title: 'FAQ',
-            items: [
-              {
-                label: 'FAQ',
-                to: '/faq',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+    ],
+    plugins: [
+        "docusaurus-plugin-sass",
+        [
+            "@docusaurus/plugin-content-docs",
+            {
+                id: "faq",
+                path: "faq",
+                routeBasePath: "faq",
+                sidebarPath: require.resolve("./sidebars.js"),
+            },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
-};
+    ],
+    themeConfig:
+        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+        ({
+            // Replace with your project's social card
+            image: "img/docusaurus-social-card.jpg",
+            navbar: {
+                title: "",
+                logo: {
+                    alt: "로고",
+                    src: "img/mainLogo.png",
+                    srcDark: "img/mainLogoDark.png",
+                },
+                items: [
+                    {
+                        to: "/docs/intro",
+                        position: "left",
+                        label: "Docs",
+                        activeBaseRegex: `/docs/`,
+                    },
+                    {
+                        to: "/faq/profile/signup",
+                        position: "left",
+                        label: "FAQ",
+                        activeBaseRegex: `/faq/`,
+                    },
+                    { to: "/blog", label: "Notice", position: "left" },
+                ],
+            },
+            footer: {},
+            prism: {
+                theme: lightCodeTheme,
+                darkTheme: darkCodeTheme,
+            },
+        }),
+}
 
-module.exports = config;
+module.exports = config
