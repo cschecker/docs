@@ -65,18 +65,18 @@ const config = {
                 },
                 items: [
                     {
-                        to: "/docs/intro",
+                        to: "/docs/signup/",
                         position: "left",
                         label: "Docs",
-                        activeBaseRegex: `/docs/`,
+                        activeBaseRegex: `/docs/signup/`,
                     },
-                    {
-                        to: "/faq/profile/signup",
-                        position: "left",
-                        label: "FAQ",
-                        activeBaseRegex: `/faq/`,
-                    },
-                    { to: "/blog", label: "Notice", position: "left" },
+                    // {
+                    //     to: "/faq/profile/signup",
+                    //     position: "left",
+                    //     label: "FAQ",
+                    //     activeBaseRegex: `/faq/`,
+                    // },
+                    // { to: "/blog", label: "Notice", position: "left" },
                 ],
             },
             footer: {},
