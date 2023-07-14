@@ -65,10 +65,10 @@ const config = {
                 },
                 items: [
                     {
-                        to: "/docs/signup/",
+                        to: "/docs/login/",
                         position: "left",
                         label: "Docs",
-                        activeBaseRegex: `/docs/signup/`,
+                        activeBaseRegex: `/docs/login/`,
                     },
                     // {
                     //     to: "/faq/profile/signup",
