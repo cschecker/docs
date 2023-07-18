@@ -8,9 +8,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 const config = {
     title: "CloudSecurity Checker 사용가이드",
     favicon: "img/favicon.ico",
-    url: "https://docs.cschecker.kr",
+    url: "https://cschecker.github.io",
     baseUrl: "/",
-    projectName: "cschecker", // Usually your repo name.
+    projectName: "cschecker.github.io", // Usually your repo name.
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     i18n: {
