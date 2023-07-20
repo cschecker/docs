@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "CS Checker Docs",
+    title: "CloudSecurity Checker 사용가이드",
     favicon: "img/favicon.ico",
     url: "https://docs.cschecker.kr",
     baseUrl: "/",
