@@ -17,7 +17,7 @@ function Footer(props) {
             <div className={styles.footerWrap__copyright}>
                 <h5>
                     (주)클라우드로 | 사업자등록번호 : 886-86-02497 | 대표이사
-                    박성갑 | 서울 송파구 올림픽로 240 롯데웰빙센터 2F
+                    김경수 | 서울 강남구 테헤란로 151(역삼하이츠 빌딩), 305
                 </h5>
                 <h5>Copyright ⓒ 2023 Cloudraw. Inc.</h5>
             </div>
