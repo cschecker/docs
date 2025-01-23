@@ -14,8 +14,8 @@ const config = {
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     i18n: {
-        defaultLocale: "en",
-        locales: ["en"],
+        defaultLocale: "ko",
+        locales: ["ko", "en"],
     },
 
     presets: [
@@ -69,6 +69,10 @@ const config = {
                         position: "left",
                         label: "Docs",
                         activeBaseRegex: `/docs/login/`,
+                    },
+                    {
+                        type: "localeDropdown",
+                        position: "right",
                     },
                     // {
                     //     to: "/faq/profile/signup",
