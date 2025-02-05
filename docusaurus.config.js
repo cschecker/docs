@@ -21,17 +21,26 @@ const config = {
     presets: [
         [
             "classic",
-            /** @type {import('@docusaurus/preset-classic').Options} */
+            /** @type {import("@docusaurus/preset-classic").Options} */
             ({
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
-                    editUrl:
-                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                    routeBasePath: "docs",
+                    path: "docs",
+                    sidebarItemsGenerator: async ({
+                        defaultSidebarItemsGenerator,
+                        ...args
+                    }) => {
+                        const sidebarItems =
+                            await defaultSidebarItemsGenerator(args)
+                        return sidebarItems
+                    },
                 },
                 blog: {
-                    showReadingTime: true,
-                    editUrl:
-                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                    routeBasePath: "release",
+                    blogSidebarTitle: "Release Note",
+                    blogSidebarCount: "ALL",
+                    path: "blog",
                 },
                 theme: {
                     customCss: require.resolve("./src/scss/_custom.scss"),

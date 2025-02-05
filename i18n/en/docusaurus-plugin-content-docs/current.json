@@ -3,68 +3,36 @@
         "message": "Next",
         "description": "The label for version current"
     },
-    "sidebar.docsSidebar.category.Login": {
+    "sidebar.docsSidebar.category.로그인": {
         "message": "Login",
-        "description": "The label for category Login in sidebar docsSidebar"
+        "description": "The label for category 로그인 in sidebar docsSidebar"
     },
-    "sidebar.docsSidebar.category.Find ID/Reset Password": {
+    "sidebar.docsSidebar.category.아이디 찾기/비밀번호 재설정": {
         "message": "Find ID/Reset Password",
-        "description": "The label for category Find ID/Reset Password in sidebar docsSidebar"
+        "description": "The label for category 아이디 찾기/비밀번호 재설정 in sidebar docsSidebar"
     },
-    "sidebar.docsSidebar.category.Asset": {
+    "sidebar.docsSidebar.category.자산": {
         "message": "Asset",
-        "description": "The label for category Asset in sidebar docsSidebar"
+        "description": "The label for category 자산 in sidebar docsSidebar"
     },
-    "sidebar.docsSidebar.category.Inspection": {
+    "sidebar.docsSidebar.category.점검": {
         "message": "Inspection",
-        "description": "The label for category Inspection in sidebar docsSidebar"
+        "description": "The label for category 점검 in sidebar docsSidebar"
     },
-    "sidebar.docsSidebar.category.Organization": {
+    "sidebar.docsSidebar.category.조직": {
         "message": "Organization",
-        "description": "The label for category Organization in sidebar docsSidebar"
+        "description": "The label for category 조직 in sidebar docsSidebar"
     },
-    "sidebar.docsSidebar.category.Profile/Credentials": {
+    "sidebar.docsSidebar.category.프로필/크레덴셜": {
         "message": "Profile/Credentials",
-        "description": "The label for category Profile/Credentials in sidebar docsSidebar"
+        "description": "The label for category 프로필/크레덴셜 in sidebar docsSidebar"
     },
-    "sidebar.docsSidebar.category.Manager": {
+    "sidebar.docsSidebar.category.관리자": {
         "message": "Manager",
-        "description": "The label for category Manager in sidebar docsSidebar"
+        "description": "The label for category 관리자 in sidebar docsSidebar"
     },
     "sidebar.docsSidebar.category.OTP": {
         "message": "OTP",
         "description": "The label for category OTP in sidebar docsSidebar"
-    },
-    "sidebar.faqSidebar.category.Login": {
-        "message": "Login",
-        "description": "The label for category Login in sidebar faqSidebar"
-    },
-    "sidebar.faqSidebar.category.Find ID/Reset Password": {
-        "message": "Find ID/Reset Password",
-        "description": "The label for category 아이디 찾기/비밀번호 재설정 in sidebar faqSidebar"
-    },
-    "sidebar.faqSidebar.category.Asset": {
-        "message": "Asset",
-        "description": "The label for category 자산 in sidebar faqSidebar"
-    },
-    "sidebar.faqSidebar.category.Inspection": {
-        "message": "Inspection",
-        "description": "The label for category 점검 in sidebar faqSidebar"
-    },
-    "sidebar.faqSidebar.category.Group": {
-        "message": "Group",
-        "description": "The label for category Group in sidebar faqSidebar"
-    },
-    "sidebar.faqSidebar.category.Profile/Credentials": {
-        "message": "Profile/Credentials",
-        "description": "The label for category Profile/Credentials in sidebar faqSidebar"
-    },
-    "sidebar.faqSidebar.category.Manager": {
-        "message": "Manager",
-        "description": "The label for category Manager in sidebar faqSidebar"
-    },
-    "sidebar.faqSidebar.category.OTP": {
-        "message": "OTP",
-        "description": "The label for category OTP in sidebar faqSidebar"
     }
 }
