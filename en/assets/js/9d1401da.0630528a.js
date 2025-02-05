@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompliance_docs=self.webpackChunkcompliance_docs||[]).push([[2488],{4484:e=>{e.exports=JSON.parse('{"label":"Profile","permalink":"/en/docs/tags/profile","allTagsPath":"/en/docs/tags","count":1,"items":[{"id":"setting/profile","title":"Profile","description":"Profile Image","permalink":"/en/docs/setting/profile"}]}')}}]);

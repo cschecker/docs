@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompliance_docs=self.webpackChunkcompliance_docs||[]).push([[6361],{2960:e=>{e.exports=JSON.parse('{"permalink":"/en/release","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
