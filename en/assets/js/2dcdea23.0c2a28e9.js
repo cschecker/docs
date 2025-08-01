@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompliance_docs=self.webpackChunkcompliance_docs||[]).push([[472],{830:e=>{e.exports=JSON.parse('{"label":"Login","permalink":"/en/docs/tags/login","allTagsPath":"/en/docs/tags","count":1,"items":[{"id":"login/login","title":"Login","description":"1. Enter the Email.","permalink":"/en/docs/login/"}]}')}}]);

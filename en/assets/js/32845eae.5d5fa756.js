@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompliance_docs=self.webpackChunkcompliance_docs||[]).push([[1232],{7974:e=>{e.exports=JSON.parse('{"title":"OTP","slug":"/category/otp","permalink":"/en/docs/category/otp","navigation":{"previous":{"title":"Log","permalink":"/en/docs/admin/log"},"next":{"title":"OTP","permalink":"/en/docs/otp/"}}}')}}]);

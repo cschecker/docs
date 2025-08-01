@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompliance_docs=self.webpackChunkcompliance_docs||[]).push([[5810],{4205:e=>{e.exports=JSON.parse('{"label":"Registration","permalink":"/en/docs/tags/registration","allTagsPath":"/en/docs/tags","count":1,"items":[{"id":"otp/otp","title":"OTP","description":"Registration","permalink":"/en/docs/otp/"}]}')}}]);

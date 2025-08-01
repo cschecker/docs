@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompliance_docs=self.webpackChunkcompliance_docs||[]).push([[7913],{4150:e=>{e.exports=JSON.parse('{"title":"\ub85c\uadf8\uc778","slug":"/category/\ub85c\uadf8\uc778","permalink":"/docs/category/\ub85c\uadf8\uc778","navigation":{"next":{"title":"\ub85c\uadf8\uc778","permalink":"/docs/login/"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcompliance_docs=self.webpackChunkcompliance_docs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Release Note","items":[{"title":"index","permalink":"/release/2023/06/23/index"}]}')}}]);
