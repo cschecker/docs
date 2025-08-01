@@ -16,10 +16,10 @@ function Footer(props) {
 
             <div className={styles.footerWrap__copyright}>
                 <h5>
-                    (주)클라우드로 | 사업자등록번호 : 886-86-02497 | 대표이사
-                    김경수 | 서울 강남구 테헤란로 151(역삼하이츠 빌딩), 305
+                    (주)한국정보보호경영연구소 | 사업자등록번호 : 886-86-02497 | 대표이사
+                    박성갑 | 서울 강남구 테헤란로 151(역삼하이츠 빌딩), 716
                 </h5>
-                <h5>Copyright ⓒ 2023 Cloudraw. Inc.</h5>
+                <h5>Copyright ⓒ 2025 KISMI. Inc.</h5>
             </div>
         </footer>
     )
